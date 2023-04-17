@@ -1,0 +1,29 @@
+body {
+    font-size: 16px;
+}
+
+.app-child {
+    max-width: 600px;
+    font-size: 16px !important;
+    margin: 50px auto 0 auto;
+}
+
+.header-link {
+    font-size: 16px;
+    color: #333;
+}
+
+.header-link:hover {
+    color: black;
+    font-weight: bold;
+    transform: scale(1.01);
+    transition: all .3s ease-in-out;
+}
+
+.normal-font {
+    font-size: 16px !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
