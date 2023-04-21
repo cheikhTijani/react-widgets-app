@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Dropdown from "./Dropdown";
-// import Convert from "./Convert";
 
 const options = [
     {
@@ -39,7 +38,7 @@ const Translate = () => {
             headers: {
                 'content-type': 'application/x-www-form-urlencoded',
                 'Accept-Encoding': 'application/gzip',
-                'X-RapidAPI-Key': 'REACT_APP_api_key',
+                'X-RapidAPI-Key': process.env.REACT_APP_api_key,
                 'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com'
             },
             body: encodedParams
