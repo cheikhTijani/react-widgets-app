@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import Dropdown from "./Dropdown";
 
+import * as dotenv from 'dotenv';
+dotenv.config();
+
 const options = [
     {
         label: 'English',
